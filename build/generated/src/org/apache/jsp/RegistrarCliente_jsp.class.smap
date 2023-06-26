@@ -1,0 +1,23 @@
+SMAP
+RegistrarCliente_jsp.java
+JSP
+*S JSP
+*F
++ 0 RegistrarCliente.jsp
+RegistrarCliente.jsp
++ 1 Sesiones.jsp
+Sesiones.jsp
+*L
+1,6:53
+5#1,8:58
+13,12:67
+24,4:79
+28,8:84
+35,5:92
+6#0,118:96
+124:215,2
+125:217,3
+126:220
+127,3:221,3
+130,26:230
+*E

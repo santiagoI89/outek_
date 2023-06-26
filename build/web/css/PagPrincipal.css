@@ -1,0 +1,88 @@
+.containerCatego{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cat {
+    background-color: #BBDEFB;
+    display: inline-block;
+    width: 300px;
+    border: 2px solid #FF9800;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #212121;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.cat:hover{
+    background-color: #2196F3;
+}
+
+.mensaje-error {
+    color: red;
+    font-weight: bold;
+}
+
+.mensaje-exito {
+    color: green;
+    font-weight: bold;
+}
+
+.consul {
+    height: 250px;
+    width: 300px;
+    margin: 40px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    box-shadow:  2px 2px 20px rgba(0, 0, 0,0.5);
+    align-items: center;
+    text-align: center;
+    padding-top: 0.2px;
+}
+
+.titleConsul {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1976D2;
+    text-align: center; /* Añadir centrado del texto */
+    margin-top: 10px;
+}
+
+.ConsulInput {
+  width: 65%;
+  height: 40px;
+  padding: 0.9px;
+  font-size: 15px;
+  border: 3px solid #1976D2;
+  border-radius: 30px;
+  transition: border-color 0.8s ease-in-out;
+}
+
+.ConsulInput:focus {
+  border-color: #FFCE87;
+}
+
+.btnConsul {
+  display: inline-block;
+  padding: 15px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btnConsul:hover {
+  background-color: #0056b3;
+}

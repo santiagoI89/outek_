@@ -1,0 +1,130 @@
+
+form {
+        text-align: center; /* Centrar el formulario */
+    }
+
+    .form-group {
+        margin-bottom: 20px; /* Margen inferior para separar los elementos del formulario */
+    }
+
+    /* Estilos para la tabla */
+    table {
+        margin: auto; /* Centrar la tabla */
+        border-collapse: collapse; /* Colapsar los bordes de la tabla */
+        margin-bottom: 30px; /* Espacio inferior de la tabla */
+    }
+
+    th, td {
+        padding: 8px; /* Espacio interno de las celdas */
+        text-align: center; /* Centrar el contenido de las celdas */
+        border: 1px solid #ccc; /* Bordes de las celdas */
+    }
+    
+  .consul {
+    height: 250px;
+    width: 300px;
+    margin: 40px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    box-shadow:  2px 2px 20px rgba(0, 0, 0,0.5);
+    align-items: center;
+    text-align: center;
+    padding-top: 0.2px;
+}
+
+.titleConsul {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1976D2;
+    text-align: center; /* Añadir centrado del texto */
+    margin-top: 10px;
+}
+
+.ConsulInput {
+  width: 65%;
+  height: 40px;
+  padding: 0.9px;
+  font-size: 15px;
+  border: 3px solid #1976D2;
+  border-radius: 30px;
+  transition: border-color 0.8s ease-in-out;
+}
+
+.ConsulInput:focus {
+  border-color: #FFCE87;
+}
+
+.btnConsul {
+  display: inline-block;
+  padding: 15px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btnConsul:hover {
+  background-color: #0056b3;
+}
+
+.btnReact {
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btnReact:hover {
+  background-color: #0056b3;
+  
+}
+
+
+@media (max-width: 480px) {
+    table{
+        width: 100%;
+        font-size: .9em;
+    }
+    table tr{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid grey;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+    
+    table thead{
+        display: none;
+    }
+    
+    table td[data-titulo]{
+        display: flex;
+    }
+    
+    table td,table th{
+        border:none;
+    }
+    
+    table td[data-titulo]::before{
+        content: attr( data-titulo );
+        width: 90px;
+        color:silver;
+        font-weight: bold;
+    }
+}

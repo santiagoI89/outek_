@@ -1,0 +1,20 @@
+SMAP
+ConsultarVentas_jsp.java
+JSP
+*S JSP
+*F
++ 0 ConsultarVentas.jsp
+ConsultarVentas.jsp
+*L
+5,108:49
+113,7:158
+119,3:165
+122,9:168,3
+131,3:195
+134:198,3
+135,6:201
+141:207,3
+142,5:210
+147:215,3
+148,22:218
+*E

@@ -1,0 +1,74 @@
+
+.hidden {
+    display: none;
+}
+
+form{
+    background: #FFFFFF;
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 15px;
+    box-shadow:  3px 3px 47px rgba(86, 164, 241,0.9);
+}
+
+.formContac{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 35px;
+}
+
+
+.formContac label, .formContac input, .formContac textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;   
+}
+
+.formContac label {
+  font-weight: 700;
+}
+
+.formContac input:not([type='submit']), .formContac textarea {
+  border: none;
+  border-bottom: 2px solid #1976D2;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+  color: gray;
+  resize: none;
+}
+
+.contact textarea {
+  min-height: 100px;
+}
+
+input[type='submit'] {
+  padding: 10px;
+  background: #ff165d;
+  border: none;
+  background-color: #FF9800; 
+  color: white;
+  font-size: 15px;
+  /* pointer-events: none; */
+  cursor: pointer;
+
+}
+
+.btn_Contact {
+  background-color: #FF9800; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 5px; /* Borde redondeado */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.btn_Contact:hover {
+  background-color: #2196F3; /* Color de fondo al pasar el mouse */
+}
